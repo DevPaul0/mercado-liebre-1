@@ -1,0 +1,155 @@
+body {
+    font-family: 'roboto';
+    margin: 0%;
+    padding: 0%;
+    background-color: #EAC926; 
+}
+.navbar{
+    display: none;
+}
+.navbar ul {
+    text-align: left;
+    padding-left: 0%;
+    list-style-type: none;
+}
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
+.cred {
+    height: 20px;
+    width: 350px;
+}
+header div {
+    height: 21px;
+    width: 317px;
+}
+.burger-menu {
+    text-align: center;
+    margin-left: 45%;
+    background-color:#1259c3;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+} 
+.icon1 i{
+    text-align: center;
+    color: white;
+    margin-top: 25%;
+}
+
+
+/* main floop */
+.t1{
+    display: flex;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: "roboto";
+    background-color: #ebebeb;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    background-color:  #ebebeb;
+}
+
+.product {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: "roboto";
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+.discount {
+    font-size: 14px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+
+/* footer start end*/
+footer {
+    background-color:  white;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer p {
+    color:  black;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.item1 {
+    margin-bottom: 0%;
+    font-size: 18px; 
+    font-weight: bold;
+    margin-top: 0%;
+}
+.gift{
+    margin-top: 30px;
+}
+.gift i {
+    color: #1259c3;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 767px) {
+    /*HEADER*/
+    header{}
+    header .logo{}
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .cred{
+        display: flex;
+        justify-content: center;
+        width: 768px;
+    }
+    header .cred i{
+    }
+    nav{}
+    nav .item{}
+    .burger-menu{
+        display: none;
+    }
+    .burger-menu .icon1{}
+    .burger-menu .icon1 i{}
+    main{}
+    main .t1{}
+    main section .product-section{}
+    main section .product{}
+    main section .product img{}
+    main section .product-price{}
+    main section .discount{}
+    footer{}
+    footer .gift{}
+    footer .gift .item1{}
+    footer .gift .item{}
+    footer p{}
+}
